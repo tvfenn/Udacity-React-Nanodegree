@@ -107,7 +107,6 @@ class App extends Component {
         </header>
         <h2>Favorite Movies</h2>
 		
-
 		{profiles.map(profile => {
          	const userName = users[profile.userID].name;
 			const favMovieName = movies[profile.favoriteMovieID].name;
